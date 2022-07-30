@@ -11,10 +11,13 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  min-width: 400px;
-  min-height: 700px;
+  /* min-width: 400px; */
+  height: 500px;
   background-color: white;
   border-radius: 0.5rem;
+}
+.image {
+  height: 90px;
 }
 img {
   max-width: 90px;
@@ -25,15 +28,23 @@ img {
   display: flex;
   justify-content: flex-start;
   background-color: white;
-  width: 50%;
+  width: 40%;
   padding: 0.5rem;
-  width: 250px;
 }
-
+.common {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 350px;
+  margin: 0 1rem;
+}
 .side {
-  display: inline;
+  display: inline-block;
+  position: relative;
+  top: -15px;
   text-align: left;
   margin-left: 0.5rem;
+  width: 100%;
 }
 button {
   background-color: #fa6aaa;
@@ -44,4 +55,13 @@ button {
   border-radius: 3px;
   color: white;
   padding: 1rem;
+}
+@media (max-width: 374px) {
+  .App {
+    height: 800px;
+  }
+  .common {
+    justify-content: center;
+    flex-direction: column;
+  }
 }

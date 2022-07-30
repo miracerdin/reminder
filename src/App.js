@@ -11,9 +11,12 @@ export default function App() {
   return (
     <div className="App">
       <h1>{clear.length} birthday today</h1>
-      {clear.map((person) => {
-        return <List key={person.id} person={person} />;
-      })}
+      <div className="common">
+        {clear.map((person) => {
+          return <List key={person.id} person={person} />;
+        })}
+      </div>
+
       <button className="btn" onClick={() => setClear([])}>
         Clear all
       </button>
