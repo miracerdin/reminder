@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## [Click me to see the page](https://reminder-lake.vercel.app/).
 ![reminder](https://user-images.githubusercontent.com/99042499/177962618-fda5294e-0586-48b6-9a09-66a6ccb3524f.gif)
 
 ## Available Scripts
