@@ -57,6 +57,14 @@ button {
   color: white;
   padding: 1rem;
 }
+@media (max-width: 667px) {
+  body {
+    height: 100%;
+  }
+  .App {
+    height: 550px;
+  }
+}
 @media (max-width: 375px) {
   .App {
     height: 870px;
@@ -66,13 +74,5 @@ button {
   .common {
     justify-content: center;
     flex-direction: column;
-  }
-}
-@media (max-width: 667px) {
-  body {
-    height: 100%;
-  }
-  .App {
-    height: 550px;
   }
 }
