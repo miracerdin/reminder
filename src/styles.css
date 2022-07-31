@@ -59,7 +59,7 @@ button {
 }
 @media (max-width: 374px) {
   .App {
-    height: 850px;
+    height: 870px;
   }
   .common {
     justify-content: center;
