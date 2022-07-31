@@ -61,6 +61,7 @@ button {
   .App {
     height: 870px;
     overflow: hidden;
+    max-width: 350px;
   }
   .common {
     justify-content: center;
@@ -72,6 +73,6 @@ button {
     height: 100%;
   }
   .App {
-    max-height: 870px;
+    height: 550px;
   }
 }
