@@ -4,6 +4,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  box-sizing: border-box;
 }
 .App {
   font-family: sans-serif;
@@ -63,5 +64,10 @@ button {
   .common {
     justify-content: center;
     flex-direction: column;
+  }
+}
+@media (max-width: 667px) {
+  body {
+    height: 100%;
   }
 }
