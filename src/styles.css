@@ -72,6 +72,6 @@ button {
     height: 100%;
   }
   .App {
-    height: 870px;
+    max-height: 870px;
   }
 }
