@@ -57,7 +57,7 @@ button {
   color: white;
   padding: 1rem;
 }
-@media (max-width: 374px) {
+@media (max-width: 375px) {
   .App {
     height: 870px;
     overflow: hidden;
@@ -70,5 +70,8 @@ button {
 @media (max-width: 667px) {
   body {
     height: 100%;
+  }
+  .App {
+    overflow: hidden;
   }
 }
